@@ -1,1 +1,1 @@
-Just run gedcomtrivia.py to generate questions!
+Just add your GEDCOM path in gedcomtrivia.py and run it to generate questions!

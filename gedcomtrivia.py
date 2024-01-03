@@ -1,22 +1,11 @@
 import random
 from gedcomparser import gedcomParse
 
-subject = None
-#questions = [
-#    f"How many children did {subject} have?",
-#    f"In which city did {subject} work?",
-#    f"In which city did {subject} reside?",
-#    f"What was {subject}'s occupation?",
-#    f"Who is the father of {subject}?",
-#    f"Who is the mother of {subject}?",
-#    f"Who is the spouse of {subject}?",
-#    f"Which person is a child of {subject}?"
-#]
-
-answers = []
+#Enter GEDCOM file path here
+filepath = ""
 
 num = int(input("How many questions should be generated? "))
-gedcom = gedcomParse("D:\Genealogy\The Rizvi-Zaidi-Kazmi Family Tree.ged")
+gedcom = gedcomParse(filepath)
 
 def generateQuestions(person):
     questions = []
